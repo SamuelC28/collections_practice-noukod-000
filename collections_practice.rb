@@ -46,14 +46,3 @@ def sum_array(array)
   	 array.inject { |result, element| result += element }
 end
 
-def kesha_maker(array)
-
-  array.each_with_index.collect do |element, index|
-  if index == 1
-     element
-  else
-   element << "s"
-  end
-  end
-  # return array
-end
