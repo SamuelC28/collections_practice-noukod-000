@@ -43,5 +43,5 @@ def find_a(array)
 end
 
 def sum_array(array)
-  	array.inject do |a| sum += a }
+  	 array.inject { |result, element| result += element }
 end
