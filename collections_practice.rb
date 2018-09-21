@@ -37,7 +37,7 @@ end
 def find_a(array)
   array.select do |name|
 	  if name.start_with?("a")
-	    puts "#{name}"
+	     "#{name}"
 	  end
 	end
 end
