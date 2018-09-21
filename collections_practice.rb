@@ -23,5 +23,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  new_arr[]
+  array.each do |element|
+  new_arr << element[2] = "$"
 
+  end
+ return new_arr
 end
