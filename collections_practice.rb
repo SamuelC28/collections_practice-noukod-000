@@ -46,7 +46,7 @@ def sum_array(array)
   	 array.inject { |result, element| result += element }
 end
 
-def kesha_maker(array)
+def add_s(array)
 
   array.each_with_index.collect do |element, index|
   if index == 1
