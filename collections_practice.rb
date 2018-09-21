@@ -7,6 +7,6 @@ def sort_array_desc(array)
  array.sort_by { |number| -number }
 end
 
-def swap_elements(array, index, destination)
+def swap_elements(array)
 swap_elements([array[0], array[1], array[2],1,2)
 end
