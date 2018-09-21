@@ -19,7 +19,7 @@ return array
 end
 
 def reverse_array(array)
-  array.sort do |integers|
-    integers.sort.reverse
+  array.sort_by do |integers|
+    integers.reverse
   end
 end
