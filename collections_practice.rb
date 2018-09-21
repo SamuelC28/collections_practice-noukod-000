@@ -8,5 +8,5 @@ def sort_array_desc(array)
 end
 
 def swap_elements(array, index, destination)
-swap_elements([index[0], index[1], index[2],1,2)
+swap_elements([array[0], array[1], array[2],1,2)
 end
